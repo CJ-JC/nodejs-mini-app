@@ -1,6 +1,6 @@
-const request = require("supertest");
-const app = require("../src/app");
-const { expect } = require("chai");
+import request from "supertest";
+import { expect } from "chai";
+import app from "../src/app";
 
 describe("GET /", () => {
     it("should return Hello, World!", (done) => {
