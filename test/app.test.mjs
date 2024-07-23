@@ -1,6 +1,6 @@
 import request from "supertest";
 import { expect } from "chai";
-import app from "../src/app";
+import app from "../src/app.js";
 
 describe("GET /", () => {
     it("should return Hello, World!", (done) => {
