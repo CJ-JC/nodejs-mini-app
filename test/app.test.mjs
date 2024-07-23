@@ -1,6 +1,8 @@
+// app.test.mjs
+
 import request from "supertest";
 import { expect } from "chai";
-import app from "../src/app.js";
+import app from "../src/app.mjs";
 
 describe("GET /", () => {
     it("should return Hello, World!", (done) => {
